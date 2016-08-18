@@ -29,7 +29,9 @@
 
 var rules = {
   "~*x hello ~*y": [
-    "How do you do. Please state your problem."
+    "How do you do. Please state your problem.",
+    "hello binchy",
+    "hey it me eliza",
   ],
   "~*x computer ~*y": [
     "Do computers worry you?",
@@ -39,6 +41,7 @@ var rules = {
     "What about computers worries you?",
     "What do you think about computers?",
     "What do you think machines have to do with your problem?",
+    "they can be a lot of fun",
   ],
   "~*x name ~*y": [
     "I am not interested in names",
@@ -47,6 +50,7 @@ var rules = {
     "Please don't apologize",
     "Apologies are not necessary",
     "What feelings do you have when you apologize",
+    "no need to say sorry i dont have feelings",
   ],
   "~*x I remember ~*y": [
     "Do you often think of ~y?",
@@ -55,6 +59,7 @@ var rules = {
     "Why do you recall ~y right now?",
     "What in the present situation reminds you of ~y?",
     "What is the connection between me and ~y?",
+    "i have no memory if u havent reALIZED",
   ],
   "~*x do you remember ~*y": [
     "Did you think I would forget ~y?",
@@ -71,6 +76,7 @@ var rules = {
     "What would it mean if you got ~y?",
     "Why do you need ~y?",
     "Suppose you got ~y soon.",
+    "I can't give that to u",
   ],
   "~*x if ~*y": [
     "Do you really think it's likely that ~y?",
@@ -85,6 +91,7 @@ var rules = {
   ],
   "~*x I dream about ~*y": [
     "How do you feel about ~y in reality?",
+    "maybe ~y dreams about u too",
   ],
   "~*x dream ~*y": [
     "What does this dream suggest to you?",
@@ -95,6 +102,7 @@ var rules = {
   "~*x my mother ~*y": [
     "Who else in your family ~y?",
     "Tell me more about your family",
+    "are u my mother",
   ],
   "~*x my father ~*y": [
     "Your father?",
